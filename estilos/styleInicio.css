@@ -7,8 +7,8 @@
 }
 .container{
     display: grid;
-    grid-template-columns: 210px 300px 37vw;
-    grid-template-rows: 20vh 25vh 25vh 18vh;
+    grid-template-columns: 210px 300px 60vw;
+    grid-template-rows: 16vh 25vh 25vh 18vh;
 }
 body{
     padding: 0px;
@@ -28,8 +28,7 @@ header ul{
 }
 li{
     padding: 10px;
-    display: inline-block;
-  
+    display: inline-block;  
 }   
 .menu li:hover{
     font-size: 1.3em;
@@ -63,7 +62,8 @@ li{
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-left: 80px;
+    margin-left: 10px;
+    
 }
 .box3 img{
     width: 50px;
