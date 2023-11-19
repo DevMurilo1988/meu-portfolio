@@ -7,7 +7,7 @@
         background: linear-gradient(-10deg, red 83%, var(--fundoescuro) 17.2%  100%);/*Define a linha de estilo que corta o inicio da página*/
         background-repeat: no-repeat;       
 }
-
+}
 
 
 
@@ -21,4 +21,5 @@
         background: linear-gradient(-10deg, black 83%, var(--fundoescuro) 17.2%  100%);/*Define a linha de estilo que corta o inicio da página*/
         background-repeat: no-repeat;
     
+}
 }
