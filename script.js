@@ -6,7 +6,7 @@ function inicio() {
 }
 function sobre() {
     i.innerText = 'Sobre'
-    i.    
+        
 }
 function formacao() {
     i.innerText = 'Fromação'    
