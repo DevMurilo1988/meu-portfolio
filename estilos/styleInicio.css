@@ -6,16 +6,17 @@
     --fonteprincipal: rgb(209, 105, 31);
     --fontebranca: rgb(255, 255, 255);
 }
-
 *{/*Reset da pagina*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 .container{/*Define os parametros do container*/
+    max-width: 1400px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 210px 300px 60vw;
     grid-template-rows: 16vh 25vh 25vh;
+    grid-template-columns: repeat(auto-fit minmax(100px, 1fr));/*Aqui estou usando uma função do grid para responsividade*/
 }
 body{/*Configurações padão da Página*/
     width: 100%;
@@ -39,7 +40,7 @@ header > ul > li{/*Define o estilo da minha lista de Menu (Topo da página)*/
 .menu li:hover{/*Define o efeito do menu, Zoom e cor da letra quando passo o mouse sobre as palavras*/
     font-size: 1.3em;
     color: var(--fonteprincipal);
-    transition: 0.2s;
+    transition: 0.2s;   
     background:var(--fundoescuro);
     font-weight: bolder;
     cursor: pointer;
@@ -51,21 +52,23 @@ header > ul > li{/*Define o estilo da minha lista de Menu (Topo da página)*/
     box-shadow: 1px 1px 7px var(--fundoclaro);    
 }
 .box1{/*Posicionamento da foto no Grid*/
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;    
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    text-align: end;
+    margin-top: 7%;
 }
 .box2{/*Posicionamento da apresentação ( nome e função)  */
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
     margin-left: 10px;       
 }
 .box3{/*Posicionamento dos botões de redes sociais*/  
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
     margin-left: 10px;   
@@ -113,6 +116,5 @@ footer{
     margin-top: 10px;
     background: #071325;
     text-align: center;
-    color: rgb(175, 174, 174) ;
-    
+    color: rgb(175, 174, 174);   
 }
