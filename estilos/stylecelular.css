@@ -1,3 +1,20 @@
 @charset "UTF-8";
 
-@media (w)
+@media (max-width:480px){
+    header ul{/*Parametros do cabeçalho*/
+        width: 100%;
+        height: 50px;
+        background:var(--fundoescuro);
+        color: white;   
+        text-align: justify;
+        box-shadow: 1px 1px 5px white;
+        font-size: 0.5em;
+    }
+
+#fotoCapa{/*Define as configurações da foto do perfil*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px var(--fundoclaro);    
+}
+}
