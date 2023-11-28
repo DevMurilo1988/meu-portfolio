@@ -87,8 +87,8 @@ header > ul > li{/*Define o estilo da minha lista de Menu (Topo da página)*/
     cursor: pointer;
 }
 #caixasdetexto{/*Configurações das divis (Sobre) que estão dentro do article que estão dentro de section*/
-    width: 900px;
-    height: max-content;
+    max-width: fit-content;
+    max-height: fit-content;
     position: relative;
     margin: auto;
     margin-top: 10px;

@@ -1,20 +1,47 @@
 @charset "UTF-8";
 
-@media (max-width:480px){
+@media (max-width:600px){
     header ul{/*Parametros do cabeçalho*/
         width: 100%;
         height: 50px;
         background:var(--fundoescuro);
         color: white;   
-        text-align: justify;
+        text-align: center;
         box-shadow: 1px 1px 5px white;
-        font-size: 0.5em;
+        font-size: 1em;
     }
-
+.container{
+    display: grid;
+    grid-template-rows: 38vh 10vh 15vh;
+    grid-template-columns: repeat(auto-fit minmax(100px, 1fr));/*Aqui estou usando uma função do grid para responsividade*/
+}
 #fotoCapa{/*Define as configurações da foto do perfil*/
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 1px 1px 7px var(--fundoclaro);    
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    text-align: center;
+    margin-top: 10px;
+}
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    margin-top: 10px; 
 }
 }
