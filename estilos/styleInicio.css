@@ -91,7 +91,7 @@ header > ul > li{/*Define o estilo da minha lista de Menu (Topo da página)*/
     max-height: fit-content;
     position: relative;
     margin: auto;
-    margin-top: 10px;
+    margin: 15px 20px;
     padding: 20px;
     color: rgb(175, 174, 174);
     background:#071325;
@@ -117,4 +117,8 @@ footer{
     background: #071325;
     text-align: center;
     color: rgb(175, 174, 174);   
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 174, 174);
 }
