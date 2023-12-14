@@ -19,7 +19,7 @@
     grid-template-columns: repeat(auto-fit minmax(100px, 1fr));/*Aqui estou usando uma função do grid para responsividade*/
 }
 body{/*Configurações padão da Página*/
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background: linear-gradient(-10deg, var(--fundoclaro) 83%, var(--fundoescuro) 17.2%  100%);/*Define a linha de estilo que corta o inicio da página*/
     background-repeat: no-repeat;
@@ -110,13 +110,13 @@ h3{/*Configurações dos titulos H3 dentro de (Sobre)*/
     color: chocolate;
 }
 footer{
-    max-width: 100vw;
-    height: 30px;
+    max-width: 100%;
+    max-height: 30px;
     padding: 20px;
-    margin-top: 10px;
     background: #071325;
     text-align: center;
-    color: rgb(175, 174, 174);   
+    color: rgb(175, 174, 174);
+      
 }
 a{
     text-decoration: none;
